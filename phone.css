@@ -1,0 +1,61 @@
+#box1 h1{
+    font-size: 40px;
+}
+
+#heading a{
+    font-size: 30px;
+}
+
+#box1 p{
+    font-size: 20px;
+}
+
+#content-p2{
+    font-size: 30px;
+}
+
+#pinkContent p{
+    margin: 5px 0;
+}
+
+#grid1{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: auto;
+}
+
+#right-image{
+    height: 100vh;
+}
+
+#flex4{
+    flex-direction: column;
+}
+
+.flex4item{
+    height: auto;
+    margin: 15px 0;
+}
+
+#orangeBottom{
+    height: auto;
+    padding: 10px;
+}
+
+#navbar .hover{
+    display: none;
+}
+
+#navbar{
+    justify-content: center;
+}
+
+#wedding , #social{
+    flex-direction: column;
+}
+
+#pinkContent{
+    padding: 10px;
+    height: auto;
+}

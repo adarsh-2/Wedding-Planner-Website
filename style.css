@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#super{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+#super>div{
+    scroll-snap-align: start;
+}
+
+#container{
+    background: url("Image/background.jpg") center center/cover; 
+    height: 100vh;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar li{
+    list-style: none;
+    margin: 50px;
+}
+
+ul .hover a:hover{
+    text-decoration: underline;
+    font-style: italic;
+}
+
+ul #heading{
+    font-size: 40px;
+}
+
+ul li a{
+    text-decoration: none;
+    color:black;
+}
+
+#box1{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: auto;
+    justify-content: center;
+    height: 80vh;
+
+}
+
+#box1 h1{
+    font-size: 70px;
+}
+
+#box1 p{
+    font-size: 25px;
+}
+
+#box1 h1, #box1 p{
+    text-align: center;
+}
+
+/* Content Section */
+
+#content{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: greenyellow;
+}
+
+#actualContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 80vh;
+}
+
+#content-p2{
+    font-size: 50px;
+}
+
+#content p{
+    text-align: center;
+}
+
+#content-button{
+    padding: 10px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#grid1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+    
+}
+
+#image1grid{
+    transition: 0.5s;
+}
+
+#image1grid:hover{
+    scale: 1.1;
+}
+
+
+#insideGrid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+#contentGrid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60vh;
+    justify-content: space-around;
+}
+
+#grid1btn{
+    padding: 10px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#grid1btn:hover{
+    background-color: black;
+    color: white;
+}
+
+#right-image{
+    background: url("Image/diningTable.jpg") center center/cover;
+}
+
+#pinkContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#flex4{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+}
+
+.flex4item{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: space-around;
+}
+
+.flex4item img{
+    height: 200px;
+    width: 160px;
+    transition: 0.5s;
+}
+
+.flex4item img:hover{
+    scale: 1.05;
+}
+
+#discover{
+    padding: 10px;
+    background-color: transparent;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#discover:hover{
+    color: white;
+    background-color: black;
+}
+
+#orangeBottom{
+    background-color: orange;
+    height: 42vh;
+}
+
+#flexEnd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 30vh;
+}
+
+#bookButton{
+    padding: 10px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#bookButton:hover{
+    background-color: black;
+    color: white;
+}
+
+#list2bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#social, #wedding{
+    display: flex;
+
+}
+
+hr{
+    color: black ;
+}
+
+#social li, #wedding li{
+    list-style: none;
+    margin: 10px;
+}
+
+#social li a:hover, #wedding li a:hover{
+    color: blue;
+}
+
+#superBottom{
+    margin: 10px;
+}
